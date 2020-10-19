@@ -3,7 +3,7 @@ import { Form, Button, InputGroup,Modal } from "react-bootstrap";
 import EncodedModal from './EncodedModal'
 import DecodedModal from './DecodedModal'
 
-export default function Encoderlayout() {
+export default function Operativelayout() {
   const [secret, setSecret] = useState("");
   const [mask, setMask] = useState("");
   const [modalOpen,setModalOpen]=useState(false)
