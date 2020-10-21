@@ -8,12 +8,12 @@ const binaryToZeroWidth = binary => (
     binary.split('').map((binaryNum) => {
         const num = parseInt(binaryNum, 10);
         if (num === 1) {
-            return '​'; // invisible &#8203;   "\u200B"
+            return '​'; // invisible &#8203; "\u200B"
         } else if (num === 0) {
-            return '‌'; // invisible &#8204;  "\u200C"
+            return '‌'; // invisible &#8204;   "\u200C"
         }
-        return '‍'; // invisible &#8205;  "\u200D"
-    }).join('﻿') // invisible &#65279;  "\uFEFF"
+        return ''; // invisible &#8205;   "\u200D"
+    }).join('﻿') // invisible &#65279;   "\uFEFF"
 );
 
 export default (username) => {
