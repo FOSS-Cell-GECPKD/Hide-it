@@ -40,8 +40,8 @@ export default function Operativelayout() {
           <Button onClick={()=>{setEncodedShow(true);setModalOpen(true)}} className="m-2">Encode</Button>
           <Button onClick={()=>{setEncodedShow(false); setModalOpen(true)}} className="m-2">Decode</Button>
           <Modal show={modalOpen} onHide={closeModal}>
-                {encodedShow?<EncodedModal closeModal={closeModal}/>
-                :<DecodedModal closeModal={closeModal}/>}
+                {encodedShow?<EncodedModal secret={secret} mask={mask} closeModal={closeModal}/>
+                :<DecodedModal secret={secret} closeModal={closeModal}/>}
             </Modal>
         </div>
       </Form>
