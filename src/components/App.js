@@ -1,19 +1,22 @@
-
-import React from 'react';
-import Header from './Header';
-import OperativeLayout from './OperativeLayout'
+import React from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import OperativeLayout from "./OperativeLayout";
+import ShortInfo from "./ShortInfo";
 
 function App() {
   return (
     <>
-    <div>
-      <Header/>
-    </div>
-    <div className="d-flex flex-column justify-content-center">
-      <OperativeLayout/>
-    </div>
-    </>
-  );
+      <Header />
+      <div className="d-flex flex-column px-2 pb-2">
+        <ShortInfo />
+      </div>
+      <div className="d-flex flex-column justify-content-center">
+        <OperativeLayout />
+      </div>
+      <Footer />
+      </>
+  )
 }
 
 export default App;

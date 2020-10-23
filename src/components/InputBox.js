@@ -5,11 +5,10 @@ import {InputGroup,Form} from 'react-bootstrap'
 export default function InputBox({placeholder,onChange,value}) {
     return (
         <>
-        <InputGroup className="m-2">
+        <InputGroup className="p-2">
           <Form.Control
             
             as="textarea"
-            required
             value={value}
             placeholder={placeholder}
             onChange={onChange}

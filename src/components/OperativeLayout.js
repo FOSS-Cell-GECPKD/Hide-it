@@ -15,15 +15,15 @@ export default function Operativelayout() {
   }
 
   return (
-    <div style={{ width: '500px', maxWidth: '500px', margin: 'auto' }}>
-      <Form className="m-2">
+    <div style={{ width: '98%', maxWidth: '500px', margin: 'auto' ,height:"62vh"}}>
+      <Form className="m-1 p-1">
         <InputBox value={secret} placeholder="Enter your secret text here " onChange={(e) => setSecret(e.target.value)} />
         <InputBox value={mask} placeholder="Enter your Mask Text here " onChange={(e) => setMask(e.target.value)} />
 
         <div className="d-flex justify-content-center">
           <Button onClick={() => { setEncodedShow(true); setModalOpen(true) }} className="m-2">Encode</Button>
           <Button onClick={() => { setEncodedShow(false); setModalOpen(true) }} className="m-2">Decode</Button>
-          
+
           <Modal show={modalOpen} onHide={closeModal}>
             {encodedShow ? <EncodedModal secret={secret} mask={mask} closeModal={closeModal} />
               : <DecodedModal secret={secret} closeModal={closeModal} />}
