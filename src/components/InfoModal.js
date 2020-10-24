@@ -10,14 +10,14 @@ export default function InfoModal(props) {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h5>How to Encode</h5>
+                <h5 style={{color:'#6f42c1'}}>How to Encode</h5>
                 <ol>
                     <li>In the First Textarea,Type the text you want to Encode.</li>
                     <li>In the Second Textarea,Type a mask text - this will be the message others see</li>
                     <li>Click Encode Button</li>
                     <li>Tadaaa...</li>
                 </ol>
-                <h5>How to Decode</h5>
+                <h5 style={{color:'#6f42c1'}}>How to Decode</h5>
                 <ol>
                     <li>In the First Textarea,Type the text you want to Decode.</li>
                     <li>Click Decode Button saying Abracadabra</li>

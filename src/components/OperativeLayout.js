@@ -15,7 +15,7 @@ export default function Operativelayout() {
   }
 
   return (
-    <div style={{ width: '98%', maxWidth: '500px', margin: 'auto' ,height:"62vh"}}>
+    <div style={{ width: '98%', maxWidth: '500px', margin: 'auto' }}>
       <Form className="m-1 p-1">
         <InputBox value={secret} placeholder="Enter message to Encode/Decode" onChange={(e) => setSecret(e.target.value)} />
         <InputBox value={mask} placeholder="Enter your Mask Text here(optional)" onChange={(e) => setMask(e.target.value)} />
