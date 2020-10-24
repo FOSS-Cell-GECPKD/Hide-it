@@ -6,16 +6,14 @@ import ShortInfo from "./ShortInfo";
 
 function App() {
   return (
-    <>
-      <Header />
-      <div className="d-flex flex-column px-2 pb-2">
+    <div className="d-flex flex-column" style={{height:'100vh'}}>
+      <Header/>
+      <main style={{flex:'1 1 auto'}}>
         <ShortInfo />
-      </div>
-      <div className="d-flex flex-column justify-content-center">
         <OperativeLayout />
-      </div>
+      </main>
       <Footer />
-      </>
+    </div>
   )
 }
 
