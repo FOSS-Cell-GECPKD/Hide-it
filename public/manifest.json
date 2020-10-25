@@ -1,22 +1,27 @@
 {
-  "short_name": "Hide-It",
-  "name": "A site to hide your secrets in other texts",
+  "short_name": "A site to hide your secrets in other texts",
+  "name": "Hide-It",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
+      "src": "icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+  },
+  {
+      "src": "icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+  },
+  {
+      "src": "icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+  },
+  {
+      "src": "icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+  }
   ],
   "start_url": ".",
   "display": "standalone",
