@@ -3,6 +3,7 @@ import { Form, Button, Modal } from "react-bootstrap";
 import EncodedModal from './EncodedModal'
 import DecodedModal from './DecodedModal'
 import InputBox from './InputBox'
+import ClearButton from './ClearButton'
 
 export default function Operativelayout() {
   const [secret, setSecret] = useState("");
@@ -16,9 +17,11 @@ export default function Operativelayout() {
 
   return (
     <div style={{ width: '98%', maxWidth: '500px', margin: 'auto' }}>
-      <Form className="m-1 p-1">
+      <Form className="m-1 p-1 mt-2">
         <InputBox value={secret} placeholder="Enter message to Encode/Decode" onChange={(e) => setSecret(e.target.value)} />
+        
         <InputBox value={mask} placeholder="Enter your Mask Text here(optional)" onChange={(e) => setMask(e.target.value)} />
+        
 
         <div className="d-flex justify-content-center">
           <Button onClick={() => { setEncodedShow(true); setModalOpen(true) }} className="m-2">Encode</Button>
@@ -29,6 +32,7 @@ export default function Operativelayout() {
               : <DecodedModal secret={secret} closeModal={closeModal} />}
           </Modal>
         </div>
+        <ClearButton onClick={()=>{setMask("");setSecret("");}}/>
       </Form>
     </div>
   );

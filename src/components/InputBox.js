@@ -12,7 +12,7 @@ export default function InputBox({placeholder,onChange,value}) {
             value={value}
             placeholder={placeholder}
             onChange={onChange}
-            style={{ resize: "none" ,marginBottom:'20px' }}
+            style={{ resize: "none",height:'80px', marginBottom:'10px'}}
           />
         </InputGroup>
         </>
