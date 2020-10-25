@@ -1,7 +1,7 @@
 # Hide-it
 
-[![License](https://img.shields.io/github/license/FOSS-Cell-GECPKD/Lifetree?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/Lifetree/blob/master/LICENSE)
-[![Issues](https://img.shields.io/github/issues/FOSS-Cell-GECPKD/whitespace-stego?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/whitespace-stego/issues)
+[![License](https://img.shields.io/github/license/FOSS-Cell-GECPKD/hide-it?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/hide-it/blob/main/LICENSE)
+[![Issues](https://img.shields.io/github/issues/FOSS-Cell-GECPKD/hide-it?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/hide-it/issues)
 [![Chat on Gitter](https://img.shields.io/badge/chat--on-gitter-brightgreen?style=for-the-badge&logo=appveyor)](https://gitter.im/FOSS-Cell-GECPKD/whitespace-stego)
 <br/>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c27123f8-e5b3-4471-95a5-1750162036f5/deploy-status)](https://hide-it.netlify.app/)
@@ -16,13 +16,13 @@ A progressive web-app which utilizes whitespaces to hide the text from being vis
 
 Make a local clone of this repo, so you can work on it from your own computer.
 ```
-git clone https://github.com/FOSS-Cell-GECPKD/whitespace-stego.git
+git clone https://github.com/FOSS-Cell-GECPKD/hide-it.git
 ```
 #### Running the React App
 
 - open terminal at the repo
 ```
-cd whitespace-stego
+cd hide-it
 npm install
 npm start
 ```
@@ -55,5 +55,5 @@ If you don't see your idea/issue listed, do one of the following:
 Discussions about Hide-it is placed on our Gitter Chat Anybody is welcome to join these conversations.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](LICENSE).
 
