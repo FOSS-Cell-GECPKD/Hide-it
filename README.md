@@ -6,7 +6,7 @@
 
 ## About
 
-A web-app which utilizes whitespaces to hide the text from being visible.
+A progressive web-app which utilizes whitespaces to hide the text from being visible.
 
 ## Setup
 
