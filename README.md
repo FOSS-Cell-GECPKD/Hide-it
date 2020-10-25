@@ -4,7 +4,7 @@
 [![Issues](https://img.shields.io/github/issues/FOSS-Cell-GECPKD/whitespace-stego?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/whitespace-stego/issues)
 [![Chat on Gitter](https://img.shields.io/badge/chat--on-gitter-brightgreen?style=for-the-badge&logo=appveyor)](https://gitter.im/FOSS-Cell-GECPKD/whitespace-stego)
 
-##About
+## About
 
 A web-app which utilizes whitespaces to hide the text from being visible.
 
@@ -26,12 +26,12 @@ npm start
 ```
 ## Instructions for use
 
-####To Encode
+#### To Encode
 - Enter the text you want to hide in the first box
 - Enter an optional mask text 
 - Press encode button
 - Press Copy, and you have the encrypted text in your clipboard
-####To Decode
+#### To Decode
 - Enter the encrypted text into the first box
 - Press decode, and there you have it 
 
