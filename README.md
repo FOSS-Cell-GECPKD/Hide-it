@@ -37,22 +37,27 @@ npm start
 - Enter the encrypted text into the first box
 - Press decode, and there you have it 
 
+## How this works?
 
-## Contributing to Hide-it
-👍🎉 First off, thanks for taking the time to contribute! 🎉👍
+#### Encoder
+- First it takes the text to encode and splits it into characters.
+- It then takes each character and converts it into unicode.
+- The unicode is then converted to 8-bit binary code.
+- Then, for each 1 and 0 it returns a zero-width character ie '\u200B' and '\u200C' respectively.
+- Finally, it joins all these into a string, places '\uFEFF' in between and returns it.
 
-### How Can I Contribute?
-When you are ready to start work on an issue:
+#### Decoder
+- Firstly, it splits the given string into an array using '\uFEFF'
+- Now, it changes zero-width characters into binary by replacing 1,0 for every '\u200B' and '\u200C' respectively.
+- Then it converts these binary codes into integer
+- The integers are then converted to character.
+- And lastly, the characters are then joined to make the final string.
 
-- Let us know by leaving a comment on the issue. (Also let us know later if you are no longer working on it.)
-- Once you have been assigned the issue (or once you have claimed the issue) only then proceed to make the Pull Request. This will help avoid multiple PRs pertaining to the same issue.
-
-If you don't see your idea/issue listed, do one of the following:
-* **If your contribution is minor,** such as a typo fix, you can directly open a pull request.
-* **If your contribution is major,** such as a new feature/enhancement, start by opening an issue first. This way, other people can be also involved in the discussion before you do any work.
+### Contributing
+- Check out our [contributing](CONTRIBUTING.md) guide.
 
 ### Community
-Discussions about Hide-it is placed on our Gitter Chat Anybody is welcome to join these conversations.
+Discussions about Hide-it is placed on Gitter Chat. Anyone is welcome to join these conversations.
 
 ## License
 Licensed under the [MIT License](LICENSE).
