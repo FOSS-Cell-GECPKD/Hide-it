@@ -57,7 +57,7 @@ npm start
 - Check out our [contributing](CONTRIBUTING.md) guide.
 
 ### Community
-Discussions about Hide-it is placed on Gitter Chat. Anyone is welcome to join these conversations.
+Discussions about Hide-it takes place on Gitter Chat. Anyone is welcome to join these conversations.
 
 ## License
 Licensed under the [MIT License](LICENSE).
