@@ -5,6 +5,7 @@ import ModalContent from './ModalContent';
 export default function DecodedModal({ secret, closeModal }) {
 
     return (
-        <ModalContent val={zeroWidthToText(secret.replace(/[^​‌‍﻿]/g, ''))} name="Decoded Message" closeModal={closeModal} />
-)
+        <ModalContent val={zeroWidthToText(secret.replace(/[^​‌‍﻿]/g, ''))} 
+            name="Decoded Message" closeModal={closeModal} />
+    )
 }
