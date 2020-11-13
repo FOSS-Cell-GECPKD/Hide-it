@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import InfoModal from "./InfoModal";
+import Gitlogo from '../gh-icon.png'
 
 export default function Header() {
   const [show, setShow] = useState(false);
@@ -13,7 +14,7 @@ export default function Header() {
         <a href="https://github.com/FOSS-Cell-GECPKD/whitespace-stego"
           rel="noopener noreferrer" target="_blank" className="m-1">
           <Button size="sm" variant="light">
-            <img src={require("../gh-icon.png")} width="16px" height="16px" alt="github-icon" /> Star
+            <img src={Gitlogo} width="16px" height="16px" alt="github-icon" /> Star
         </Button>
         </a>
         <Button size="sm" variant="secondary" className="m-1"
