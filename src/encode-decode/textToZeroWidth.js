@@ -16,7 +16,9 @@ const binaryToZeroWidth = binary => (
     }).join('﻿') // invisible &#65279;   "\uFEFF"
 );
 
-export default (username) => {
+const textToZeroWidth = username => {
     const binaryUsername = textToBinary(username);
     return binaryToZeroWidth(binaryUsername);
 };
+
+export default textToZeroWidth

@@ -13,7 +13,11 @@ const binaryToText = string => (
     string.split(' ').map(num => String.fromCharCode(parseInt(num, 2))).join('')
 );
 
-export default (zeroWidthUsername) => {
+const zeroWidthToText = username => {
+    const zeroWidthUsername = username.replace(/[^​‌‍﻿]/g, '');
     const binaryUsername = zeroWidthToBinary(zeroWidthUsername);
     return binaryToText(binaryUsername);
 };
+
+export default zeroWidthToText
+
