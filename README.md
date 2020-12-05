@@ -4,7 +4,9 @@
 [![Issues](https://img.shields.io/github/issues/FOSS-Cell-GECPKD/hide-it?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/hide-it/issues)
 [![Chat on Gitter](https://img.shields.io/badge/chat--on-gitter-brightgreen?style=for-the-badge&logo=appveyor)](https://gitter.im/FOSS-Cell-GECPKD/whitespace-stego)
 <br/>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c27123f8-e5b3-4471-95a5-1750162036f5/deploy-status)](https://hide-it.netlify.app/)
+[![ FOSS-Cell-GECPKD ](https://circleci.com/gh/FOSS-Cell-GECPKD/Hide-it.svg?style=shield)](https://app.circleci.com/pipelines/github/FOSS-Cell-GECPKD/Hide-it)
 
 ## About
 
