@@ -51,7 +51,7 @@ npm start
 #### Decoder
 - Firstly, it splits the given string into an array using '\uFEFF'
 - Now, it changes zero-width characters into binary by replacing 1,0 for every '\u200B' and '\u200C' respectively.
-- Then it converts these binary codes into integer
+- Then it converts these binary codes into integer.
 - The integers are then converted to character.
 - And lastly, the characters are then joined to make the final string.
 
