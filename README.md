@@ -2,9 +2,11 @@
 
 [![License](https://img.shields.io/github/license/FOSS-Cell-GECPKD/hide-it?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/hide-it/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/FOSS-Cell-GECPKD/hide-it?style=for-the-badge)](https://github.com/FOSS-Cell-GECPKD/hide-it/issues)
-[![Chat on Gitter](https://img.shields.io/badge/chat--on-gitter-brightgreen?style=for-the-badge&logo=appveyor)](https://gitter.im/FOSS-Cell-GECPKD/whitespace-stego)
+[![Chat on Gitter](https://img.shields.io/badge/chat--on-gitter-brightgreen?style=for-the-badge&logo=appveyor)](https://gitter.im/FOSS-Cell-GECPKD/Hide-it)
 <br/>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c27123f8-e5b3-4471-95a5-1750162036f5/deploy-status)](https://hide-it.netlify.app/)
+[![ FOSS-Cell-GECPKD ](https://circleci.com/gh/FOSS-Cell-GECPKD/Hide-it.svg?style=shield)](https://app.circleci.com/pipelines/github/FOSS-Cell-GECPKD/Hide-it)
 
 ## About
 
@@ -49,7 +51,7 @@ npm start
 #### Decoder
 - Firstly, it splits the given string into an array using '\uFEFF'
 - Now, it changes zero-width characters into binary by replacing 1,0 for every '\u200B' and '\u200C' respectively.
-- Then it converts these binary codes into integer
+- Then it converts these binary codes into integer.
 - The integers are then converted to character.
 - And lastly, the characters are then joined to make the final string.
 
